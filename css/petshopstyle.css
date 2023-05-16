@@ -10,7 +10,7 @@ header{
 }
 header h1{
     margin: 0;
-    padding: 84px;
+    height: 84px;
 
 }
 
@@ -48,16 +48,17 @@ nav a:hover{
 
 }
 
-.container{
+.container {
     width: 1100px;
     margin: 0 auto;
     padding: 56px 0;
 }
-.col1 {
+.col {
     width: 600px;
+    padding: 30px
 }
 
-.flex-container {
+.flex-container  {
     display: flex;
     justify-content: space-between;
 }
@@ -98,4 +99,9 @@ nav a:hover{
 
 #produto .flex-container{
     margin-top: 43px;
+}
+
+.espa{
+    padding: 20px;
+    
 }
