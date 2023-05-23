@@ -49,13 +49,12 @@ nav a:hover{
 }
 
 .container {
-    width: 1100px;
+    width: 900px;
     margin: 0 auto;
     padding: 56px 0;
 }
 .col {
-    width: 600px;
-    padding: 30px
+    width: 430px;
 }
 
 .flex-container  {
@@ -100,8 +99,36 @@ nav a:hover{
 #produto .flex-container{
     margin-top: 43px;
 }
+.produto:hover{
+    zoom: 120%;
+}
 
 .espa{
     padding: 20px;
     
+}
+
+form{
+    width: 380px;
+}
+
+form input,
+form textarea{
+    width: 100%;
+    border: 1px solid #6dd432;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+iframe{
+    width: 100%;
+}
+h2{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+#produto .flex-container, #contato .flex-container{
+    margin-top: 43px;
 }
